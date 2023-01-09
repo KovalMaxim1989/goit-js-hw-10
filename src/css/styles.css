@@ -22,13 +22,17 @@ li {
   display: flex;
   align-items: center;
   gap: 30px;
-  border: 5px solid;
+  border: 3px solid;
   border-image: linear-gradient(45deg, purple, orange) 1;
-  max-width: 500px;
+  background-color: gray;
 }
 .country-list {
-display: flex;
-flex-direction: column;
-gap: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
-.country-info { border-image: linear-gradient(45deg, purple, orange) 1;}
+.country-info {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+}
