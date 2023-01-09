@@ -22,6 +22,7 @@ li {
   display: flex;
   align-items: center;
   gap: 30px;
+  padding-left: 15px;
   border: 3px solid;
   border-image: linear-gradient(45deg, purple, orange) 1;
   background-color: gray;
